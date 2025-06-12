@@ -1,0 +1,1474 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Rohith Rao - Web Designer &amp; Developer</title>
+		<link
+			rel="icon"
+			type="image/png"
+			href="assets/images/favicon.png" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link
+			href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+			rel="stylesheet" />
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+			rel="stylesheet" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"
+			rel="stylesheet" />
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet" />
+		<style>
+			body {
+				font-family: "Poppins", sans-serif;
+				scroll-behavior: smooth;
+			}
+			@keyframes blob {
+				0%,
+				100% {
+					transform: translate(30px, 0px) scale(1);
+				}
+				50% {
+					transform: translate(20px, 40px) scale(1.2);
+				}
+			}
+
+			.blob-animate {
+				animation: blob 4s ease-in infinite;
+			}
+		</style>
+	</head>
+	<body
+		class="bg-slate-900 text-white"
+		data-new-gr-c-s-check-loaded="14.1235.0"
+		data-gr-ext-installed="">
+		<!-- Background shapes -->
+		<div
+			class="absolute rounded-full blur-[80px] -z-10 opacity-60 w-[300px] h-[300px] top-[-100px] right-[10%] bg-indigo-600"></div>
+		<div
+			class="absolute rounded-full blur-[80px] -z-10 opacity-60 w-[350px] h-[350px] bottom-[-150px] left-[100px] bg-pink-600 hidden lg:block"></div>
+
+		<!-- Navigation -->
+		<nav class="fixed w-full z-50 bg-slate-900/80 backdrop-blur-md">
+			<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="flex items-center justify-between h-16">
+					<div class="flex-shrink-0">
+						<a
+							href="#"
+							class="text-xl lg:text-2xl font-bold bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent"
+							>Web Developer</a
+						>
+					</div>
+					<div class="hidden md:block">
+						<div class="ml-10 flex items-baseline space-x-4">
+							<a
+								href="#home"
+								class="px-3 py-2 rounded-md text-sm font-medium text-white hover:text-indigo-400 transition"
+								>Home</a
+							>
+							<a
+								href="#about"
+								class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-indigo-400 transition"
+								>About</a
+							>
+							<a
+								href="#skills"
+								class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-indigo-400 transition"
+								>Skills</a
+							>
+							<a
+								href="#themes"
+								class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-indigo-400 transition"
+								>Themes</a
+							>
+							<a
+								href="#components"
+								class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-indigo-400 transition"
+								>Components</a
+							>
+							<a
+								href="#projects"
+								class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-indigo-400 transition"
+								>Projects</a
+							>
+							<a
+								href="#contact"
+								class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-indigo-400 transition"
+								>Contact</a
+							>
+						</div>
+					</div>
+					<div class="md:hidden">
+						<button
+							type="button"
+							class="text-gray-400 hover:text-white focus:outline-none"
+							id="mobile-menu-button">
+							<svg
+								class="h-6 w-6"
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor">
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M4 6h16M4 12h16M4 18h16"></path>
+							</svg>
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<!-- Mobile menu -->
+			<div
+				class="hidden md:hidden bg-slate-800"
+				id="mobile-menu">
+				<div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+					<a
+						href="#home"
+						class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-slate-700"
+						>Home</a
+					>
+					<a
+						href="#about"
+						class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-slate-700"
+						>About</a
+					>
+					<a
+						href="#skills"
+						class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-slate-700"
+						>Skills</a
+					>
+					<a
+						href="#themes"
+						class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-slate-700"
+						>Themes</a
+					>
+					<a
+						href="#components"
+						class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-slate-700"
+						>Components</a
+					>
+					<a
+						href="#projects"
+						class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-slate-700"
+						>Projects</a
+					>
+					<a
+						href="#contact"
+						class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-slate-700"
+						>Contact</a
+					>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Hero Section -->
+		<section
+			id="home"
+			class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 relative overflow-hidden pt-16">
+			<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+					<!-- Text Content -->
+					<div
+						class="lg:col-span-7"
+						data-aos="fade-right"
+						data-aos-duration="1000">
+						<div class="space-y-6">
+							<div>
+								<span
+									class="text-sm font-medium text-indigo-400 tracking-wider uppercase"
+									data-aos="fade-up"
+									data-aos-delay="200"
+									>Welcome to my portfolio</span
+								>
+								<h1
+									class="mt-2 text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight"
+									data-aos="fade-up"
+									data-aos-delay="300">
+									Hi, I'm
+									<span
+										class="bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent"
+										>Rohith Rao</span
+									>
+									— <br />
+									<span class="text-3xl sm:text-4xl lg:text-5xl"
+										>Web Designer &amp; Developer</span
+									>
+								</h1>
+							</div>
+
+							<p
+								class="text-lg text-gray-300 max-w-2xl"
+								data-aos="fade-up"
+								data-aos-delay="400">
+								Crafting beautiful, responsive websites with clean code and
+								intuitive user experiences. Turning your ideas into digital
+								reality.
+							</p>
+
+							<div
+								class="flex flex-wrap gap-4 pt-4"
+								data-aos="fade-up"
+								data-aos-delay="500">
+								<a
+									href="https://github.com/uibyrohith"
+									target="_blank"
+									class="bg-gradient-to-r from-indigo-600 to-indigo-700 hover:from-indigo-700 hover:to-indigo-800 px-6 py-3 rounded-full text-white font-medium flex items-center gap-2 transition transform hover:-translate-y-1 hover:shadow-lg">
+									<i class="fab fa-github"></i>
+									View GitHub
+								</a>
+								<a
+									href="https://www.linkedin.com/in/rohith-rao-09abde20ftykl/"
+									target="_blank"
+									class="bg-gradient-to-r from-violet-600 to-pink-600 hover:from-violet-700 hover:to-pink-700 px-6 py-3 rounded-full text-white font-medium flex items-center gap-2 transition transform hover:-translate-y-1 hover:shadow-lg">
+									<i class="fab fa-linkedin"></i>
+									View LinkedIn
+								</a>
+								<a
+									href="#contact"
+									class="border-2 border-indigo-500 hover:bg-indigo-500 px-6 py-3 rounded-full text-indigo-400 hover:text-white font-medium flex items-center gap-2 transition transform hover:-translate-y-1 hover:shadow-lg">
+									<i class="fas fa-envelope"></i>
+									Contact Me
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Illustration -->
+					<div
+						class="lg:col-span-5 flex justify-center"
+						data-aos="fade-left"
+						data-aos-duration="1000">
+						<div class="relative w-full max-w-md">
+							<div class="animate-float">
+								<svg
+									viewBox="0 0 200 200"
+									xmlns="http://www.w3.org/2000/svg"
+									class="w-full h-auto blob-animate">
+									<path
+										fill="#4F46E5"
+										d="M45.7,-78.3C58.9,-71.9,69.2,-59.2,76.4,-45.2C83.5,-31.2,87.5,-15.6,85.8,-1.1C84.1,13.5,76.7,26.9,68.3,39.4C59.9,51.8,50.4,63.3,38.4,70.9C26.3,78.5,13.2,82.3,-0.7,83.5C-14.6,84.7,-29.2,83.3,-41.4,76.7C-53.6,70.1,-63.4,58.3,-70.3,45.2C-77.2,32.1,-81.1,17.5,-81.8,2.8C-82.5,-11.9,-79.9,-26.9,-72.8,-39.4C-65.7,-51.9,-54.1,-62,-41.3,-68.2C-28.5,-74.4,-14.2,-76.7,0.9,-78.2C16,-79.7,32.5,-84.7,45.7,-78.3Z"
+										transform="translate(100 100)"></path>
+								</svg>
+
+								<div class="absolute inset-0 flex items-center justify-center">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										class="w-1/2 h-1/2 text-white">
+										<path d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+										<path d="M4.5 9.5l3-3"></path>
+										<path d="M18.5 9.5l-3-3"></path>
+										<path d="M2 13.5h4"></path>
+										<path d="M22 13.5h-4"></path>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Scroll indicator -->
+				<div
+					class="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
+					<span class="text-sm text-gray-400 mb-2">Scroll Down</span>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="h-6 w-6 text-gray-400"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke="currentColor">
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+					</svg>
+				</div>
+			</div>
+		</section>
+
+		<!-- About Section -->
+		<section
+			id="about"
+			class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-800">
+			<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+				<div
+					class="text-center mb-16"
+					data-aos="fade-up">
+					<h2
+						class="text-3xl font-bold bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent inline-block">
+						About Me
+					</h2>
+					<div
+						class="mt-2 h-1 w-20 bg-gradient-to-r from-indigo-500 to-pink-500 mx-auto"></div>
+				</div>
+
+				<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+					<!-- Image -->
+					<div
+						class="lg:col-span-5"
+						data-aos="fade-right">
+						<div class="relative">
+							<div
+								class="bg-gradient-to-br from-indigo-500 to-pink-500 rounded-lg p-1">
+								<div class="bg-slate-800 rounded-lg p-4">
+									<svg
+										viewBox="0 0 200 200"
+										xmlns="http://www.w3.org/2000/svg"
+										class="w-full h-auto blob-animate">
+										<path
+											fill="#4F46E5"
+											d="M47.7,-57.2C59.5,-45.8,65.8,-29.6,68.9,-12.9C72,3.8,71.8,21,63.4,32.6C55,44.2,38.3,50.2,22.5,55.8C6.7,61.3,-8.1,66.4,-23.5,64.2C-38.9,62,-54.8,52.4,-64.2,38.1C-73.6,23.8,-76.5,4.8,-72.2,-12.1C-67.8,-29,-56.3,-43.8,-42.3,-54.9C-28.3,-66,-14.2,-73.4,1.3,-74.9C16.7,-76.5,33.5,-72.2,47.7,-57.2Z"
+											transform="translate(100 100)"></path>
+									</svg>
+									<div
+										class="absolute inset-0 flex items-center justify-center">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											class="h-24 w-24 text-white"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke="currentColor">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="1.5"
+												d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+										</svg>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Content -->
+					<div
+						class="lg:col-span-7"
+						data-aos="fade-left">
+						<div class="space-y-6">
+							<h3 class="text-2xl font-semibold text-white">
+								5+ Years of Passionate UI Development & Design Craftsmanship
+							</h3>
+							<p class="text-gray-300">
+								I’m a dedicated UI Developer with 5 years of 
+								experience building responsive, user-first web 
+								interfaces using HTML5, Tailwind CSS, and modern 
+								design systems. I specialize in transforming clean 
+								Figma designs into accessible, scalable frontends 
+								that deliver consistent performance across devices.
+							</p>
+							<p class="text-gray-300">
+								My portfolio includes customer-centric projects 
+								like eCommerce storefronts, education platforms, 
+								food delivery UIs, wellness landing pages, and 
+								booking apps—each crafted with attention to detail, 
+								intuitive UX, and fast-loading performance. My 
+								development process is grounded in clean code, 
+								visual precision, and continuous user feedback 
+								to ensure every interface is both functional and delightful.
+							</p>
+
+							<div class="bg-slate-700/50 rounded-lg p-6 mt-8">
+								<h4 class="text-xl font-semibold text-white mb-4">
+									Experience Overview
+								</h4>
+								<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+									<!-- Companies Section -->
+									<div>
+										<h5 class="text-lg font-medium text-indigo-400">
+											Companies
+										</h5>
+										<ul class="mt-2 space-y-2 text-gray-300">
+											<li class="flex items-center">
+												<span
+													class="material-symbols-outlined text-indigo-500 mr-2"
+													>check_circle</span
+												>Digital Radium
+											</li>
+											<li class="flex items-center">
+												<span
+													class="material-symbols-outlined text-indigo-500 mr-2"
+													>check_circle</span
+												>Wipro Limited
+											</li>
+											<li class="flex items-center">
+												<span
+													class="material-symbols-outlined text-indigo-500 mr-2"
+													>check_circle</span
+												>Genpact
+											</li>
+										</ul>
+									</div>
+
+									<!-- Domains Section -->
+									<div>
+										<h5 class="text-lg font-medium text-indigo-400">Domains</h5>
+										<ul class="mt-2 space-y-2 text-gray-300">
+											<li class="flex items-center">
+												<span
+													class="material-symbols-outlined text-pink-500 mr-2"
+													>check_circle</span
+												>CRM & CMS
+											</li>
+											<li class="flex items-center">
+												<span
+													class="material-symbols-outlined text-pink-500 mr-2"
+													>check_circle</span
+												>E-commerce & Retail
+											</li>
+											<li class="flex items-center">
+												<span
+													class="material-symbols-outlined text-pink-500 mr-2"
+													>check_circle</span
+												>Booking Platforms
+											</li>
+											<li class="flex items-center">
+												<span
+													class="material-symbols-outlined text-pink-500 mr-2"
+													>check_circle</span
+												>Health & Wellness
+											</li>
+											<li class="flex items-center">
+												<span
+													class="material-symbols-outlined text-pink-500 mr-2"
+													>check_circle</span
+												>Education & eLearning
+											</li>
+											<li class="flex items-center">
+												<span
+													class="material-symbols-outlined text-pink-500 mr-2"
+													>check_circle</span
+												>Food Delivery
+											</li>
+											<li class="flex items-center">
+												<span
+													class="material-symbols-outlined text-pink-500 mr-2"
+													>check_circle</span
+												>UI Prototyping from Figma
+											</li>
+											<li class="flex items-center">
+												<span
+													class="material-symbols-outlined text-pink-500 mr-2"
+													>check_circle</span
+												>Browser Add-ons
+											</li>
+											<li class="flex items-center">
+												<span
+													class="material-symbols-outlined text-pink-500 mr-2"
+													>check_circle</span
+												>CMS-driven Interfaces
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Skills Section -->
+		<section
+			id="skills"
+			class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900">
+			<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+				<div
+					class="text-center mb-16"
+					data-aos="fade-up">
+					<h2
+						class="text-3xl font-bold bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent inline-block">
+						My Skills
+					</h2>
+					<div
+						class="mt-2 h-1 w-20 bg-gradient-to-r from-indigo-500 to-pink-500 mx-auto"></div>
+				</div>
+
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 h-fit">
+					<!-- Frontend -->
+					<div
+						class="bg-slate-800 rounded-xl p-6 shadow-lg h-fit"
+						data-aos="fade-up"
+						data-aos-delay="100">
+						<div class="flex items-center mb-4">
+							<div class="p-3 bg-indigo-500/20 rounded-lg mr-4">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="h-8 w-8 text-indigo-500"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke="currentColor">
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+								</svg>
+							</div>
+							<h3 class="text-xl font-semibold text-white">
+								Frontend Technologies
+							</h3>
+						</div>
+						<div class="grid grid-cols-3 gap-4 h-fit">
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fab fa-html5 text-orange-500 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">HTML5</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fab fa-css3-alt text-blue-500 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">CSS3</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fab fa-js text-yellow-500 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">JavaScript</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<!-- Using a generic code icon for TypeScript, or use a custom SVG if possible -->
+									<i class="fas fa-code text-sky-500 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">TypeScript</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fab fa-react text-cyan-400 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">React</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<!-- Using fa-project-diagram for Redux -->
+									<i
+										class="fas fa-project-diagram text-purple-600 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">Redux</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										class="h-6 w-6 text-sky-400"
+										viewBox="0 0 24 24"
+										fill="currentColor">
+										<path
+											d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"></path>
+									</svg>
+								</div>
+								<span class="text-xs text-gray-400">Tailwind</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fab fa-sass text-pink-500 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">SASS</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fas fa-paint-brush text-pink-400 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">Styled Comp.</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fas fa-palette text-purple-500 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">MUI</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fas fa-book text-pink-500 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">Storybook</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fas fa-flask text-green-500 text-2xl"></i>
+									<!-- Icon for Jest -->
+								</div>
+								<span class="text-xs text-gray-400">Jest/RTL</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Design -->
+					<div
+						class="bg-slate-800 rounded-xl p-6 shadow-lg h-fit"
+						data-aos="fade-up"
+						data-aos-delay="200">
+						<div class="flex items-center mb-4">
+							<div class="p-3 bg-pink-500/20 rounded-lg mr-4">
+								<!-- Your existing design icon or a more UI specific one -->
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="h-8 w-8 text-pink-500"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke="currentColor">
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path>
+								</svg>
+								<!-- Alternative UI Icon (e.g., Layers or Interface) -->
+								<!-- <i class="fas fa-layer-group text-pink-500 text-3xl"></i> -->
+							</div>
+							<h3 class="text-xl font-semibold text-white">UI Design Focus</h3>
+							<!-- Or just "UI Design" -->
+						</div>
+						<div class="grid grid-cols-3 gap-4 h-fit">
+							<!-- Adjusted grid for 4 items -->
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fab fa-figma text-purple-500 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">Figma</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fas fa-mobile-alt text-blue-500 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">Responsive</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fas fa-ruler-combined text-green-500 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">Pixel-Perfect</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<!-- Icon for Browser Compatibility -->
+									<i class="fas fa-window-maximize text-teal-500 text-2xl"></i>
+									<!-- Alternatives: fas fa-globe, fas fa-check-circle, fab fa-firefox + fab fa-chrome (harder to combine) -->
+								</div>
+								<span class="text-xs text-gray-400">Cross Browser</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Tools -->
+					<div
+						class="bg-slate-800 rounded-xl p-6 shadow-lg h-fit"
+						data-aos="fade-up"
+						data-aos-delay="300">
+						<div class="flex items-center mb-4">
+							<div class="p-3 bg-violet-500/20 rounded-lg mr-4">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="h-8 w-8 text-violet-500"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke="currentColor">
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+								</svg>
+							</div>
+							<h3 class="text-xl font-semibold text-white">
+								Development Tools & Platforms
+							</h3>
+							<!-- Slightly more descriptive -->
+						</div>
+						<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+							<!-- Responsive grid for more items -->
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fab fa-git-alt text-orange-600 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">Git</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fab fa-github text-white text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">GitHub</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fab fa-bitbucket text-blue-500 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">Bitbucket</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fab fa-jira text-sky-600 text-2xl"></i>
+									<!-- Specific Jira icon -->
+								</div>
+								<span class="text-xs text-gray-400">JIRA</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fab fa-slack text-purple-500 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">Slack</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fas fa-cloud text-blue-400 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">GCP</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fas fa-fire text-orange-500 text-2xl"></i>
+									<!-- Using fa-fire for Firebase -->
+								</div>
+								<span class="text-xs text-gray-400">Firebase</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fas fa-book-open text-pink-500 text-2xl"></i>
+									<!-- Using fa-book-open for Storybook -->
+								</div>
+								<span class="text-xs text-gray-400">Storybook</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Workflow -->
+					<div
+						class="bg-slate-800 rounded-xl p-6 shadow-lg h-fit"
+						data-aos="fade-up"
+						data-aos-delay="400">
+						<div class="flex items-center mb-4">
+							<div class="p-3 bg-emerald-500/20 rounded-lg mr-4">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="h-8 w-8 text-emerald-500"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke="currentColor">
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+								</svg>
+							</div>
+							<h3 class="text-xl font-semibold text-white">
+								Development Workflow
+							</h3>
+							<!-- Or just Workflow -->
+						</div>
+						<div class="grid grid-cols-3 gap-4 h-fit">
+							<!-- Adjusted for 4 items -->
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fas fa-sync-alt text-green-500 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">Agile</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<!-- Icon for CI/CD - fas fa-cogs or fas fa-rocket could also work well -->
+									<i class="fas fa-cogs text-sky-500 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">CI/CD</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i class="fas fa-vial text-purple-500 text-2xl"></i>
+								</div>
+								<span class="text-xs text-gray-400">Testing</span>
+							</div>
+							<div class="skill-icon flex flex-col items-center">
+								<div class="p-3 bg-slate-700 rounded-lg mb-2">
+									<i
+										class="fas fa-clipboard-check text-yellow-500 text-2xl"></i>
+									<!-- Icon for Code Review -->
+								</div>
+								<span class="text-xs text-gray-400">Code Review</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Tailwind Themes Gallery -->
+		<section
+			id="themes"
+			class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-800">
+			<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+				<div
+					class="text-center mb-16"
+					data-aos="fade-up">
+					<h2
+						class="text-3xl font-bold bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent inline-block">
+						Tailwind Themes Gallery
+					</h2>
+					<div
+						class="mt-2 h-1 w-20 bg-gradient-to-r from-indigo-500 to-pink-500 mx-auto"></div>
+					<p class="mt-4 text-gray-300 max-w-2xl mx-auto">
+						A collection of beautiful landing pages built with Tailwind CSS.
+						Each theme is fully responsive and customizable.
+					</p>
+				</div>
+
+				<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+					<!-- Education Theme -->
+					<div
+						class="bg-slate-900 rounded-xl overflow-hidden shadow-lg card-hover aos-init aos-animate"
+						data-aos="fade-up"
+						data-aos-delay="100">
+						<div class="relative h-48 overflow-hidden">
+							<div
+								class="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-600 opacity-90"></div>
+							<div class="absolute inset-0 flex items-center justify-center">
+								<div class="text-center">
+									<h3 class="text-xl font-bold text-white">Online Education</h3>
+									<p class="text-white/80 text-sm">E-Learning Landing Page</p>
+								</div>
+							</div>
+						</div>
+						<div class="p-5">
+							<div class="flex justify-between items-center">
+								<div>
+									<span
+										class="text-xs font-medium bg-indigo-500/20 text-indigo-400 py-1 px-2 rounded-full"
+										>Education</span
+									>
+									<span
+										class="text-xs font-medium bg-purple-500/20 text-purple-400 py-1 px-2 rounded-full ml-2"
+										>E-Learning</span
+									>
+								</div>
+								<div class="text-gray-400 text-sm">v1.2.0</div>
+							</div>
+							<div class="mt-4 flex space-x-2">
+								<a
+									href="https://tailwind-templates-red.vercel.app/education/"
+									target="_blank"
+									class="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white text-center py-2 px-4 rounded-md text-sm font-medium transition"
+									>Live Preview</a
+								>
+								<a
+									href="https://github.com/uibyrohith/rohith-templates/tree/main/education"
+									target="_blank"
+									class="flex-1 border border-indigo-500 text-indigo-400 hover:bg-indigo-500 hover:text-white text-center py-2 px-4 rounded-md text-sm font-medium transition"
+									>GitHub</a
+								>
+							</div>
+						</div>
+					</div>
+
+					<!-- ECommerce Theme -->
+					<div
+						class="bg-slate-900 rounded-xl overflow-hidden shadow-lg card-hover"
+						data-aos="fade-up"
+						data-aos-delay="200">
+						<div class="relative h-48 overflow-hidden">
+							<div
+								class="absolute inset-0 bg-gradient-to-r from-pink-500 to-rose-600 opacity-90"></div>
+							<div class="absolute inset-0 flex items-center justify-center">
+								<div class="text-center">
+									<h3 class="text-xl font-bold text-white">E-Commerce Pro</h3>
+									<p class="text-white/80 text-sm">Online Store Template</p>
+								</div>
+							</div>
+						</div>
+						<div class="p-5">
+							<div class="flex justify-between items-center">
+								<div>
+									<span
+										class="text-xs font-medium bg-pink-500/20 text-pink-400 py-1 px-2 rounded-full"
+										>Shop</span
+									>
+									<span
+										class="text-xs font-medium bg-rose-500/20 text-rose-400 py-1 px-2 rounded-full ml-2"
+										>E-commerce</span
+									>
+									<span
+										class="text-xs font-medium bg-rose-500/20 text-rose-400 py-1 px-2 rounded-full ml-2"
+										>Shipping</span
+									>
+									<span
+										class="text-xs font-medium bg-rose-500/20 text-rose-400 py-1 px-2 rounded-full ml-2"
+										>Payment Gatway</span
+									>
+								</div>
+								<div class="text-gray-400 text-sm">v2.0.1</div>
+							</div>
+							<div class="mt-4 flex space-x-2">
+								<a
+									href="https://tailwind-templates-red.vercel.app/ecommerce/"
+									target="_blank"
+									class="flex-1 bg-pink-600 hover:bg-pink-700 text-white text-center py-2 px-4 rounded-md text-sm font-medium transition"
+									>Live Preview</a
+								>
+								<a
+									href="https://github.com/uibyrohith/rohith-templates/tree/main/ecommerce"
+									target="_blank"
+									class="flex-1 border border-pink-500 text-pink-400 hover:bg-pink-500 hover:text-white text-center py-2 px-4 rounded-md text-sm font-medium transition"
+									>GitHub</a
+								>
+							</div>
+						</div>
+					</div>
+
+					<!-- Food Express -->
+					<div
+						class="bg-slate-900 rounded-xl overflow-hidden shadow-lg card-hover"
+						data-aos="fade-up"
+						data-aos-delay="200">
+						<div class="relative h-48 overflow-hidden">
+							<div
+								class="absolute inset-0 bg-gradient-to-r from-rose-500 to-red-600 opacity-90"></div>
+							<div class="absolute inset-0 flex items-center justify-center">
+								<div class="text-center">
+									<h3 class="text-xl font-bold text-white">Food Express</h3>
+									<p class="text-white/80 text-sm">Restaurant Platform</p>
+								</div>
+							</div>
+						</div>
+						<div class="p-5">
+							<div class="flex justify-between items-center">
+								<div>
+									<span
+										class="text-xs font-medium bg-rose-500/20 text-rose-400 py-1 px-2 rounded-full"
+										>Food</span
+									>
+									<span
+										class="text-xs font-medium bg-red-500/20 text-red-400 py-1 px-2 rounded-full ml-2"
+										>Delivery</span
+									>
+								</div>
+								<div class="text-gray-400 text-sm">v1.4.1</div>
+							</div>
+							<div class="mt-4 flex space-x-2">
+								<a
+									href="https://tailwind-templates-red.vercel.app/FoodExpress/"
+									target="_blank"
+									class="flex-1 bg-rose-600 hover:bg-rose-700 text-white text-center py-2 px-4 rounded-md text-sm font-medium transition"
+									>Live Preview</a
+								>
+								<a
+								href="https://github.com/uibyrohith/rohith-templates/tree/main/FoodExpress"
+								target="_blank
+									class="flex-1 border border-rose-500 text-rose-400 hover:bg-rose-500 hover:text-white text-center py-2 px-4 rounded-md text-sm font-medium transition"
+									>GitHub</a
+								>
+							</div>
+						</div>
+					</div>
+
+					<!--Portfolio Theme -->
+					<div
+						class="bg-slate-900 rounded-xl overflow-hidden shadow-lg card-hover"
+						data-aos="fade-up"
+						data-aos-delay="100">
+						<div class="relative h-48 overflow-hidden">
+							<div
+								class="absolute inset-0 bg-gradient-to-r from-amber-500 to-orange-600 opacity-90"></div>
+							<div class="absolute inset-0 flex items-center justify-center">
+								<div class="text-center">
+									<h3 class="text-xl font-bold text-white">Portfolio Pro</h3>
+									<p class="text-white/80 text-sm">Creative Portfolio</p>
+								</div>
+							</div>
+						</div>
+						<div class="p-5">
+							<div class="flex justify-between items-center">
+								<div>
+									<span
+										class="text-xs font-medium bg-amber-500/20 text-amber-400 py-1 px-2 rounded-full"
+										>Portfolio</span
+									>
+									<span
+										class="text-xs font-medium bg-orange-500/20 text-orange-400 py-1 px-2 rounded-full ml-2"
+										>Creative</span
+									>
+								</div>
+								<div class="text-gray-400 text-sm">v1.0.2</div>
+							</div>
+							<div class="mt-4 flex space-x-2">
+								<a
+									href=" "
+									target="_blank"
+									class="flex-1 bg-amber-600 hover:bg-amber-700 text-white text-center py-2 px-4 rounded-md text-sm font-medium transition"
+									>Live Preview</a
+								>
+								<a
+									href="https://github.com/uibyrohith/rohith-portfolio"
+									target="_blank"
+									class="flex-1 border border-amber-500 text-amber-400 hover:bg-amber-500 hover:text-white text-center py-2 px-4 rounded-md text-sm font-medium transition"
+									>GitHub</a
+								>
+							</div>
+						</div>
+					</div>
+
+					<!--MedSPA Theme -->
+					<div
+						class="bg-slate-900 rounded-xl overflow-hidden shadow-lg card-hover"
+						data-aos="fade-up"
+						data-aos-delay="200">
+						<div class="relative h-48 overflow-hidden">
+							<div
+								class="absolute inset-0 bg-gradient-to-r from-emerald-500 to-green-600 opacity-90"></div>
+							<div class="absolute inset-0 flex items-center justify-center">
+								<div class="text-center">
+									<h3 class="text-xl font-bold text-white">
+										Health &amp; Wellness
+									</h3>
+									<p class="text-white/80 text-sm">Medical Landing Page</p>
+								</div>
+							</div>
+						</div>
+						<div class="p-5">
+							<div class="flex justify-between items-center">
+								<div>
+									<span
+										class="text-xs font-medium bg-emerald-500/20 text-emerald-400 py-1 px-2 rounded-full"
+										>Health</span
+									>
+									<span
+										class="text-xs font-medium bg-green-500/20 text-green-400 py-1 px-2 rounded-full ml-2"
+										>Medical</span
+									>
+									<span
+										class="text-xs font-medium bg-green-500/20 text-green-400 py-1 px-2 rounded-full ml-2"
+										>Booking Management</span
+									>
+								</div>
+								<div class="text-gray-400 text-sm">v1.3.0</div>
+							</div>
+							<div class="mt-4 flex space-x-2">
+								<a
+									href="https://tailwind-templates-red.vercel.app/MedSPA/"
+									target="_blank"
+									class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white text-center py-2 px-4 rounded-md text-sm font-medium transition"
+									>Live Preview</a
+								>
+								<a
+									href="https://github.com/uibyrohith/rohith-templates/tree/main/MedSPA"
+									target="_blank"
+									class="flex-1 border border-emerald-500 text-emerald-400 hover:bg-emerald-500 hover:text-white text-center py-2 px-4 rounded-md text-sm font-medium transition"
+									>GitHub</a
+								>
+							</div>
+						</div>
+					</div>
+
+					<!-- KidsPlay Hub -->
+					<div
+						class="bg-slate-900 rounded-xl overflow-hidden shadow-lg card-hover"
+						data-aos="fade-up"
+						data-aos-delay="300">
+						<div class="relative h-48 overflow-hidden">
+							<div
+								class="absolute inset-0 bg-gradient-to-r from-violet-500 to-purple-600 opacity-90"></div>
+							<div class="absolute inset-0 flex items-center justify-center">
+								<div class="text-center">
+									<h3 class="text-xl font-bold text-white">KidsPlay Hub</h3>
+									<p class="text-white/80 text-sm">
+										Play Zone & Booking Platform
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="p-5">
+							<div class="flex justify-between items-center">
+								<div>
+									<span
+										class="text-xs font-medium bg-violet-500/20 text-violet-400 py-1 px-2 rounded-full"
+										>Kids</span
+									>
+									<span
+										class="text-xs font-medium bg-purple-500/20 text-purple-400 py-1 px-2 rounded-full ml-2"
+										>Booking</span
+									>
+									<span
+										class="text-xs font-medium bg-purple-500/20 text-purple-400 py-1 px-2 rounded-full ml-2"
+										>Parties</span
+									>
+									<span
+										class="text-xs font-medium bg-purple-500/20 text-purple-400 py-1 px-2 rounded-full ml-2"
+										>Events</span
+									>
+								</div>
+								<div class="text-gray-400 text-sm">v2.1.0</div>
+							</div>
+							<div class="mt-4 flex space-x-2">
+								<a
+									href="https://tailwind-templates-red.vercel.app/KidsPlay/"
+									target="_blank"
+									class="flex-1 bg-violet-600 hover:bg-violet-700 text-white text-center py-2 px-4 rounded-md text-sm font-medium transition"
+									>Live Preview</a
+								>
+								<a
+									href="https://github.com/uibyrohith/rohith-templates/tree/main/KidsPlay"
+									target="_blank"
+									class="flex-1 border border-violet-500 text-violet-400 hover:bg-violet-500 hover:text-white text-center py-2 px-4 rounded-md text-sm font-medium transition"
+									>GitHub</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>		
+		
+		<section
+			id="contact"
+			class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-800">
+			<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+				<div
+					class="text-center mb-16 aos-init aos-animate"
+					data-aos="fade-up">
+					<h2
+						class="text-3xl font-bold bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent inline-block">
+						Get In Touch
+					</h2>
+					<div
+						class="mt-2 h-1 w-20 bg-gradient-to-r from-indigo-500 to-pink-500 mx-auto"></div>
+					<p class="mt-4 text-gray-300 max-w-2xl mx-auto">
+						Have a project in mind or want to collaborate? Feel free to reach
+						out!
+					</p>
+				</div>
+
+				<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+					<!-- Contact Info -->
+					<div
+						class="bg-slate-900 rounded-xl p-8 shadow-lg aos-init aos-animate"
+						data-aos="fade-right">
+						<h3 class="text-2xl font-semibold text-white mb-6">
+							Contact Information
+						</h3>
+
+						<div class="space-y-6">
+							<div class="flex items-start">
+								<div class="flex-shrink-0">
+									<div class="bg-indigo-500/20 p-3 rounded-lg">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											class="h-6 w-6 text-indigo-500"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke="currentColor">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+										</svg>
+									</div>
+								</div>
+								<div class="ml-4">
+									<h4 class="text-lg font-medium text-white">Email</h4>
+									<a
+										href="mailto:ui.by.rohith@gmail.com"
+										class="text-indigo-400 hover:text-indigo-300 transition"
+										>ui.by.rohith@gmail.com</a
+									>
+								</div>
+							</div>
+
+							<div class="flex items-start">
+								<div class="flex-shrink-0">
+									<div class="bg-pink-500/20 p-3 rounded-lg">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											class="h-6 w-6 text-pink-500"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke="currentColor">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"></path>
+										</svg>
+									</div>
+								</div>
+								<div class="ml-4">
+									<h4 class="text-lg font-medium text-white">Let's Connect</h4>
+									<a
+										href="https://www.linkedin.com/in/rohith-rao-09abde20ftykl/"
+										target="_blank"
+										class="inline-flex items-center px-4 py-2 mt-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition">
+										<i class="fab fa-linkedin mr-2"></i>
+										LinkedIn Profile
+									</a>
+								</div>
+							</div>
+
+							<div class="flex items-start">
+								<div class="flex-shrink-0">
+									<div class="bg-violet-500/20 p-3 rounded-lg">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											class="h-6 w-6 text-violet-500"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke="currentColor">
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+										</svg>
+									</div>
+								</div>
+								<div class="ml-4">
+									<h4 class="text-lg font-medium text-white">Response Time</h4>
+									<p class="text-gray-300">
+										I'll get back to you within 24 hours
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="mt-10">
+							<h4 class="text-lg font-medium text-white mb-4">Follow Me</h4>
+							<div class="flex space-x-4">
+								<a
+									href="https://github.com/uibyrohith"
+									target="_blank"
+									class="social-icon bg-slate-800 hover:bg-slate-700 p-2 h-10 w-10 rounded-full flex items-center justify-center">
+									<i class="fab fa-github text-xl"></i>
+								</a>
+								<a
+									href="https://www.linkedin.com/in/rohith-rao-09abde20ftykl/"
+									target="_blank"
+									class="social-icon bg-slate-800 hover:bg-slate-700 p-2 h-10 w-10 rounded-full flex items-center justify-center">
+									<i class="fab fa-linkedin-in text-xl"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Contact Form -->
+					<div
+						class="bg-slate-900 rounded-xl p-8 shadow-lg aos-init aos-animate"
+						data-aos="fade-left">
+						<h3 class="text-2xl font-semibold text-white mb-6">
+							Send Me a Message
+						</h3>
+
+						<form
+							id="contact-form"
+							class="space-y-6">
+							<div>
+								<label
+									for="name"
+									class="block text-sm font-medium text-gray-300 mb-1"
+									>Your Name</label
+								>
+								<input
+									type="text"
+									id="name"
+									name="name"
+									class="w-full bg-slate-800 border border-slate-700 rounded-lg py-3 px-4 text-white placeholder-gray-400 input-focus focus:outline-none transition"
+									placeholder="Bill Gates"
+									required="" />
+							</div>
+
+							<div>
+								<label
+									for="email"
+									class="block text-sm font-medium text-gray-300 mb-1"
+									>Your Email</label
+								>
+								<input
+									type="email"
+									id="email"
+									name="email"
+									class="w-full bg-slate-800 border border-slate-700 rounded-lg py-3 px-4 text-white placeholder-gray-400 input-focus focus:outline-none transition"
+									placeholder="bill@example.com"
+									required="" />
+							</div>
+
+							<div>
+								<label
+									for="subject"
+									class="block text-sm font-medium text-gray-300 mb-1"
+									>Subject</label
+								>
+								<input
+									type="text"
+									id="subject"
+									name="subject"
+									class="w-full bg-slate-800 border border-slate-700 rounded-lg py-3 px-4 text-white placeholder-gray-400 input-focus focus:outline-none transition"
+									placeholder="Project Inquiry"
+									required="" />
+							</div>
+
+							<div>
+								<label
+									for="message"
+									class="block text-sm font-medium text-gray-300 mb-1"
+									>Message</label
+								>
+								<textarea
+									id="message"
+									name="message"
+									rows="4"
+									class="w-full bg-slate-800 border border-slate-700 rounded-lg py-3 px-4 text-white placeholder-gray-400 input-focus focus:outline-none transition"
+									placeholder="Tell me about your project..."
+									required=""></textarea>
+							</div>
+
+							<div>
+								<button
+									type="submit"
+									class="w-full bg-gradient-to-r from-indigo-600 to-pink-600 hover:from-indigo-700 hover:to-pink-700 text-white font-medium py-3 px-4 rounded-lg transition flex items-center justify-center">
+									<span>Send Message</span>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										class="h-5 w-5 ml-2"
+										viewBox="0 0 20 20"
+										fill="currentColor">
+										<path
+											fill-rule="evenodd"
+											d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+											clip-rule="evenodd"></path>
+									</svg>
+								</button>
+							</div>
+						</form>
+
+						<!-- Form Success Message (Hidden by default) -->
+						<div
+							id="success-message"
+							class="hidden mt-6 bg-green-500/20 border border-green-500 text-green-400 rounded-lg p-4">
+							<div class="flex">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="h-5 w-5 mr-2"
+									viewBox="0 0 20 20"
+									fill="currentColor">
+									<path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+										clip-rule="evenodd"></path>
+								</svg>
+								<span
+									>Your message has been sent successfully! I'll get back to you
+									soon.</span
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="bg-slate-900 border-t border-slate-800">
+			<div
+				class="container mx-auto px-4 sm:px-6 lg:px-8 px-4 sm:px-6 lg:px-8 py-12">
+				<div class="flex flex-col md:flex-row justify-between items-center">
+					<div class="mb-6 md:mb-0">
+						<a
+							href="#"
+							class="text-2xl font-bold bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent"
+							>Web Developer</a
+						>
+						<p class="mt-2 text-gray-400 text-sm">
+							Frontend Developer &amp; UI Specialist
+						</p>
+					</div>
+
+					<div class="flex space-x-6">
+						<a
+							href="https://github.com/uibyrohith"
+							target="_blank"
+							class="text-gray-400 hover:text-indigo-400 transition">
+							<span class="sr-only">GitHub</span>
+							<i class="fab fa-github text-xl"></i>
+						</a>
+						<a
+							href="https://www.linkedin.com/in/rohith-rao-09abde20ftykl/"
+							target="_blank"
+							class="text-gray-400 hover:text-indigo-400 transition">
+							<span class="sr-only">LinkedIn</span>
+							<i class="fab fa-linkedin-in text-xl"></i>
+						</a>
+						<a
+							href="mailto:ui.by.rohith@gmail.com"
+							class="text-gray-400 hover:text-indigo-400 transition">
+							<span class="sr-only">Email</span>
+							<i class="fas fa-envelope text-xl"></i>
+						</a>
+					</div>
+				</div>
+
+				<div class="mt-4 md:mt-0 flex flex-wrap items-center text-gray-400 text-sm">
+					<span>Built with</span>
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mx-1 text-red-500" viewBox="0 0 20 20" fill="currentColor">
+					  <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
+					</svg>
+					<span>using</span>
+					<span class="mx-1 font-medium text-white">Next.js</span>
+					<span>&amp;</span>
+					<span class="mx-1 font-medium text-white">Tailwind CSS</span>
+					<span class="mx-1">•</span>
+					<span>Deployed on</span>
+					<span class="ml-1 font-medium text-white">Vercel</span>
+				  </div>
+			</div>
+		</footer>
+		<script>
+			// Initialize AOS
+			document.addEventListener("DOMContentLoaded", function () {
+				AOS.init({
+					duration: 800,
+					easing: "ease-in-out",
+					once: true,
+				});
+
+				// Contact form submission
+				const contactForm = document.getElementById("contact-form");
+				const successMessage = document.getElementById("success-message");
+
+				if (contactForm) {
+					contactForm.addEventListener("submit", function (e) {
+						e.preventDefault();
+
+						// Simulate form submission
+						setTimeout(function () {
+							contactForm.reset();
+							successMessage.classList.remove("hidden");
+
+							// Hide success message after 5 seconds
+							setTimeout(function () {
+								successMessage.classList.add("hidden");
+							}, 5000);
+						}, 1000);
+					});
+				}
+			});
+		</script>
+	</body>
+</html>
